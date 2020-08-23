@@ -1,0 +1,17 @@
+name: ci
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up Go 1.x
+      uses: jstone28/gitops@v1
+      with:
+        who-to-greet: 'Mona the Octocat'
