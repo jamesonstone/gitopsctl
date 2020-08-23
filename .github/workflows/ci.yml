@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set up Go 1.x
-      uses: jstone28/gitops@v1
+      uses: jstone28/gitops@v0
       with:
         who-to-greet: 'Mona the Octocat'
