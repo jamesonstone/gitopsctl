@@ -2,9 +2,9 @@
 
 A Github Actions for handling CD configurations with [Flux](https://fluxcd.io/)
 
-## Hello world docker action
+## Overview
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+gitopsctl maintains CD with Flux by building images based on their stated versions and push to the registry. It also takes care to do manual updates to the GitOps repository to ensure Deployments are version appropriately.
 
 ## Inputs
 
